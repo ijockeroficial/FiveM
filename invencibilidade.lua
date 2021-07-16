@@ -1,3 +1,6 @@
+--Criado por iJocker YT https://youtube.com/ijockeroficiall
+--Baixado em https://github.com/ijockeroficial/FiveM
+
 --COMANDO ADICIONADO NO LADO SERVIDOR (SERVER.LUA)
 --COMANDO DE INVENSIBILIDADE
 RegisterCommand('invii',function(source,args,rawCommand)
