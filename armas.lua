@@ -1,3 +1,6 @@
+--Criado por iJocker YT https://youtube.com/ijockeroficiall
+--Baixado em https://github.com/ijockeroficial/FiveM
+
 --CÓDIGO PRA SER ADICIONADO NO LADO CLIENT (CLIENT.LUA)
 --INICIO COMANDO PEGAR ARMAS CLIENT
 RegisterNetEvent("admin:addarmas")
@@ -48,6 +51,8 @@ local armas = {
 	paraquedas = 'gadget_parachute',
 	rifle4 = 'weapon_specialcarbine_mk2',
 }
+--Criado por iJocker YT https://youtube.com/ijockeroficiall
+--Baixado em https://github.com/ijockeroficial/FiveM
 --COMANDO DE PEGAR ARMAS
 RegisterCommand('tparmas',function(source,args,rawCommand)
 	local user_id = vRP.getUserId(source)
