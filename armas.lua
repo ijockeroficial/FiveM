@@ -66,3 +66,5 @@ RegisterCommand('tparmas',function(source,args,rawCommand)
 		end
 	end
 end)
+
+--Para usar basta digitar: /tparmas
