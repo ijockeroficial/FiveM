@@ -94,7 +94,7 @@ RegisterCommand('tparmas',function(source,args,rawCommand)
 --Baixado em https://github.com/ijockeroficial/FiveM
 		if armas[nomeArma] then
 			local weaponHash = GetHashKey(armas[nomeArma])
-			local ammoCount = 1000
+			local ammoCount = 250
 			TriggerClientEvent('admin:addarmas', source, weaponHash, ammoCount)
 			TriggerClientEvent("Notify", source, "sucesso", "Você pegou: "..nomeArma)
 		else 
