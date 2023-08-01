@@ -11,5 +11,5 @@ RegisterCommand('invii',function(source,args,rawCommand)
 --Baixado em https://github.com/ijockeroficial/FiveM
 end)
 
---Obs: COMANDO ADICIONADO NO LADO SERVIDOR (SERVER.LUA)
+--Obs: COMANDO ADICIONADO NO LADO SERVIDOR PODE SER NO VRP_ADMIN (SERVER.LUA)
 --Para usar basta digitar: /invii
