@@ -26,12 +26,11 @@ ufw default allow outgoing
 ufw allow 22/tcp
 
 # Permitir HTTP e HTTPS
-ufw allow 80/tcp
-ufw allow 443/tcp
+sudo ufw allow 'Nginx FULL'
 
 # Permitir acesso ao servidor FiveM apenas do proxy VPS
-ufw allow from $IP_VPS_PROXY to any port 30120 proto tcp
-ufw allow from $IP_VPS_PROXY to any port 30120 proto udp
+#ufw allow from $IP_VPS_PROXY to any port 30120 proto tcp
+#ufw allow from $IP_VPS_PROXY to any port 30120 proto udp
 
 # Permitir Cloudflare (exemplo básico, ajuste conforme necessidade)
 # cf_ips=(173.245.48.0/20 103.21.244.0/22 103.22.200.0/22 103.31.4.0/22)
